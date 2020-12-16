@@ -9,9 +9,9 @@ body {
   font-weight: 200;
   /* background-color: #2e353d; */
   background-color: #6c2a6a;
-  position: fixed;
+  position: absolute;
   top: 67px;
-  width: 320px;
+  width: 230px;
   height: 100%;
   color: #e1ffff;
 }
@@ -297,7 +297,7 @@ body {
 }
 
 .content {
-  margin-left: 320px;
+  margin-left: 230px;
 }
 .topbar {
   height: 100px;
@@ -313,4 +313,13 @@ body {
   font-size: 16px;
   font-weight: bold;
   padding: 5px 10px;
+}
+.menu-list {
+  padding-left: 15px;
+}
+.nav-item {
+  margin-left: 15px;
+}
+.nav-item .title {
+  font-size: 24px;
 }
