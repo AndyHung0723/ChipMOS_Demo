@@ -1,0 +1,224 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Start */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana;
+}
+.header {
+  padding: 30px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin-right: 15px;
+  height: 50px;
+}
+.logo h1 {
+  font-size: 28px;
+  border-left: 1.5px solid #000;
+  padding-left: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.content .title {
+  font-size: 36px;
+  font-weight: bold;
+}
+.content .subtitle {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #333;
+}
+
+form {
+  width: 80%;
+}
+.form-input {
+  display: block;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px;
+}
+.form-input::placeholder {
+  color: #ccc;
+  padding-left: 5px;
+}
+.submit {
+  margin-top: 35px;
+  width: 100%;
+  background-color: #33f;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.forget {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}

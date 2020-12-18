@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+        <!-- <h2 class="active">Sign In</h2>
+        <h2 class="inactive underlineHover">Sign Up</h2> -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+          <!-- <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" /> -->
+          <img class="logo" src="img/logo.svg" alt="logo" />
+          <h2 class="title">供應商平台</h2>
+        </div>
+
+        <!-- Login Form -->
+        <form>
+          <div class="login-wrapper">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="username" />
+          </div>
+          <div class="password-wrapper">
+            <input type="password" id="password" class="fadeIn third password" name="login" placeholder="password" />
+          </div>
+          <button type="submit" class="fadeIn fourth"><i class="fas fa-sign-in-alt"></i> Login</button>
+          <p class="error">incorrect username or password</p>
+        </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+          <a class="underlineHover" href="#">Forget Password?</a>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>This website is best viewed using Chrome , Firefox and newer browsers.</h2>
+        <h2>Copyright © ChipMOS TECHNOLOGIES INC.</h2>
+      </div>
+    </div>
+  </body>
+</html>
